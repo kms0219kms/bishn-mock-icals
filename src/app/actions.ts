@@ -1,6 +1,6 @@
 "use server";
 
-import ical from "ical-generator";
+import ical, { ICalCalendarMethod } from "ical-generator";
 
 import type { IExam } from "@/types/IExam";
 import * as examTimetable from "@/data/timetable.json";
@@ -8,7 +8,10 @@ import * as examTimetable from "@/data/timetable.json";
 export async function generateICalFile(timetableIds: number[]) {
   console.log("Generating iCal file for timetable IDs:", timetableIds);
 
-  const calendar = ical({ name: "Trial Exam Timetable" });
+  const calendar = ical({
+    name: "Trial Exam Timetable",
+    method: ICalCalendarMethod.REQUEST,
+  });
 
   const exams = JSON.parse(JSON.stringify(examTimetable.exams)) as IExam[];
   const timetable = exams.filter((exam) =>
