@@ -32,12 +32,12 @@ export default function Home() {
           width={384}
           height={78}
           alt="British International School Hanoi"
-          className="w-72 lg:w-96 py-5"
+          className="w-72 md:w-96 py-5"
         />
 
-        <h1 className="inline-flex flex-col gap-1 lg:flex-row lg:gap-0 text-2xl font-bold mt-8 mb-5">
+        <h1 className="inline-flex flex-col gap-1 md:flex-row md:gap-0 text-2xl font-bold mt-8 mb-5">
           <span>IGCSE Trial Exam Timetable</span>
-          <span className="hidden lg:inline">&nbsp;-&nbsp;</span>
+          <span className="hidden md:inline">&nbsp;-&nbsp;</span>
           <span>iCals Downloader</span>
         </h1>
 

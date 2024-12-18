@@ -6,7 +6,7 @@ export function Announcement({ onClose }: { onClose: () => void }) {
           When you export your timetable, we stringly recommend to use
           &quot;Download iCal&quot; button.
           <br />
-          <br className="inline lg:hidden" />
+          <br className="inline md:hidden" />
           If you have any issues, please contact to me:{" "}
           <a
             href="mailto:minsu_kim@bishanoi.net"

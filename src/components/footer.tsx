@@ -3,7 +3,7 @@ export function Footer() {
     <div className="pt-16 text-sm text-center text-zinc-500">
       <p>
         Guide Video: How to import the iCal file to Outlook?
-        <br className="inline lg:hidden" />
+        <br className="inline md:hidden" />
         <a
           href="https://watch.screencastify.com/v/GLVobqbAjbG3095JucDn"
           target="_blank"
@@ -27,7 +27,7 @@ export function Footer() {
 
       <p>
         If any exam timetable has been changed,
-        <br className="inline lg:hidden" />
+        <br className="inline md:hidden" />
         this tool has{" "}
         <span className="font-semibold text-zinc-900">
           no responsibility
@@ -35,7 +35,7 @@ export function Footer() {
         for the update.
       </p>
 
-      <br className="inline lg:hidden" />
+      <br className="inline md:hidden" />
 
       <p>
         Made with ❤️ by{" "}
